@@ -1,9 +1,3 @@
-# Radarr-AirDCPP-docker
-Docker builds for Radarr-AirDCPP
-
-Example docker-compose config (replace Dockerfile with Dockerfile.<architecture>):
-
-```
 version: '3'
 services:
   rdr_custom:
@@ -14,4 +8,4 @@ services:
     volumes:
       - <host_config_dir>:/config
       - /mnt:/mnt
-```
+
